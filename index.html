@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Comic Demo</title>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<!-- Navigation bar -->
+	<div id="nav">
+		<!-- link to divs on the same page using their id names -->
+		<a href="#arcadia"><div class="nav-btn" id="first-page"></div></a>
+		<a href="#shores"><div class="nav-btn" id="second-page"></div></a>
+		<a href="#hideaway"><div class="nav-btn" id="third-page"></div></a>
+		<a href="#thicket"><div class="nav-btn" id="fourth-page"></div></a>
+	</div>
+	<!-- 
+	Four full browser size sections:
+	1. Arcadia
+	2. Shores
+	3. Hideaway
+	4. Thicket
+	 -->
+	<div id="arcadia">
+		<!-- Content to display inside the arcadia div -->
+		<div id="flower-div">
+			<span id="flower-text">The distant laughter of youth.</span>
+			<img id="flower" src="img/pnf404.jpeg">
+		</div>
+	</div>
+	<div id="shores">
+		<div id="flower-div">
+			<span id="flower-text">The sun hits the water.</span>
+			<img id="flower" src="img/pnf404.jpeg">
+		</div>
+	</div>
+	<div id="hideaway">
+		<div id="flower-div">
+			<span id="flower-text">Presence, long gone but felt.</span>
+			<img id="flower" src="img/pnf404.jpeg">
+		</div>
+	</div>
+	<div id="thicket">
+		<div id="flower-div">
+			<span id="flower-text">What lies in the wilderness?</span>
+			<img id="flower" src="img/pnf404.jpeg">
+		</div>
+	</div>
+	<!-- Olimar div position is fixed on the bottom left corner of the web page -->
+	<div id="olimar-div">
+		<span id="olimar-text">Hi! My name is Olimar. I'm a space explorer.</span>
+		<img id="olimar" src="img/olimar.png">
+	</div>
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+	<script src="scri.js"></script>
+</body>
+</html>
